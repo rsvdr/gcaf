@@ -1,0 +1,46 @@
+
+[simulation]
+number_of_particles     = 10
+toroidal_transits       = 300
+step_delta              = 2000
+trajectory_points       = 10000
+moment_points           = 10000
+distribution_points     = 20
+poincare_bounds         = 0.1 0.9
+poincare_plane          = 0
+
+[field]
+field_magnitude         = 2
+q_on_axis               = 1
+q_on_wall               = 5
+major_radius            = 150
+minor_radius            = 50
+perturbation_amplitude  = 2.5e-6
+perturbation_frequency  = 0
+perturbation_phase      = 0
+m_mode                  = 2
+n_mode                  = 1
+electrostatic_potential = cons 0
+
+[plasma]
+temperature             = flat 1000
+density                 = flat 2.0e+14
+
+
+[impurities]
+type                    = ions
+mass                    = 1
+charge                  = 1
+temperature             = flat 1
+density                 = flat 2.0e+15
+
+[particle]
+type_test               = ions
+mass_test               = 1
+charge_test             = 1
+radial_position         = 0.4472
+theta                   = 0
+zeta                    = 0
+pitch_angle             = iso 0
+energy                  = mono 1.0
+
