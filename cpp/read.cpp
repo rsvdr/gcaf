@@ -1,6 +1,6 @@
 //----------------------------------------------------------------//
 // gcafpp code by R. Saavedra. Email: saavestro@gmail.com         //
-// For more information visit https://github.com/Saavestro/gcafpp //
+// For more information visit https://git.rsaavedra.xyz/?p=gcaf.git //
 //----------------------------------------------------------------//
 #include "shared.h"
 #include <boost/program_options.hpp>

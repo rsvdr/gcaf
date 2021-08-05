@@ -2,8 +2,6 @@
 
 This guiding center code can simulate test ions in a maxwellian plasma composed of electrons and a single species of ions subject to an external model magnetic field corresponding to a tokamak.
 
-For more detailed information about the code please visit the [wiki page](https://github.com/Saavestro/gcaf/wiki/GCAF-wiki).
-
 ## Software structure
 
 Some contents in the source files are the following:

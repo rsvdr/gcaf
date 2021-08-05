@@ -40,7 +40,7 @@ main.o: shared.h define.h main.cpp
 	$(COMPILE) main.cpp
 
 
-.PHONY: clean install export xook
+.PHONY: clean install
 
 clean:
 	rm -f $(PROGRAM_NAME) $(cppobjs)
@@ -48,12 +48,3 @@ clean:
 
 install:
 	cp $(PROGRAM_NAME) ~/.local/bin
-
-export:
-	cp Makefile ~/github/gcafpp/src/
-	cp -r *.cpp ~/github/gcafpp/src/
-	cp -r *.h ~/github/gcafpp/src/
-
-xook:
-	scp *.cpp saavedra@xook.nucleares.unam.mx:/storage/icn/saavedra/src
-	scp *.h saavedra@xook.nucleares.unam.mx:/storage/icn/saavedra/src

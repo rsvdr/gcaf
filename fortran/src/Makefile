@@ -45,14 +45,10 @@ main.o: shared.mod main.f90
 	$(COMPILE) main.f90
 
 
-.PHONY: run clean install export
+.PHONY: run clean install
 
 clean:
 	rm -f $(f90objs) $(f90mods) $(PROGRAM_NAME)
 
 install:
 	cp gcaf ~/.local/bin
-
-export:
-	cp Makefile ~/github/gcaf/src/
-	cp -r *.f90 ~/github/gcaf/src/

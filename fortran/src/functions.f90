@@ -1,7 +1,6 @@
 !---------------------------------------------------------------------!
 ! GCAF= Guiding Center Analytic Field code by R. Saavedra             !
-! Email of the author: saavestro@gmail.com                            !
-! For more information please visit https://github.com/Saavestro/gcaf !
+! For more information please visit https://git.rsaavedra.xyz/?p=gcaf.git !
 !---------------------------------------------------------------------!
 !---------------------------------------------------------!
 real(8) function xxproj(px,tx,zx)

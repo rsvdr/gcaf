@@ -1,7 +1,7 @@
 //---------------------------------------------------------------//
 // GCAF= Guiding Center Analytic Field code by R. Saavedra       //
 // Email of the author: saavestro@gmail.com                      //
-// For more information visit https://github.com/Saavestro/gcaf  //
+// For more information visit https://git.rsaavedra.xyz/?p=gcaf.git  //
 //---------------------------------------------------------------//
 #ifndef DECLAR_H
 #define DECLAR_H
